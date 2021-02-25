@@ -1,9 +1,14 @@
 import React from "react";
+import Navbar from "./Navbar/Navbar";
+import Footer from "./Footer";
+import Header from "./Header/Header";
 
 export default function Container() {
   return (
     <div className="container-fluid bg-dark">
-      <p className="border border-info">container</p>
+      <Navbar />
+      <Header />
+      <Footer />
     </div>
   );
 }
