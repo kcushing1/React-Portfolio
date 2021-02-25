@@ -11,7 +11,7 @@ export default function Header() {
         />
         <div className="img-name">
           <h1>Kasey Cushing</h1>
-          <p>Web Developer</p>
+          <p>Full Stck Web Developer</p>
         </div>
       </div>
     </div>
