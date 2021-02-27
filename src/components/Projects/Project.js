@@ -17,7 +17,7 @@ export default function Project({
       <div className="col">
         <div className="row">
           <div className="col justify-content-center">
-            <img alt="demo" src={image} />
+            <img alt="demo" src={image} className="m-3 border border-solid" />
           </div>
         </div>
       </div>

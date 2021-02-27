@@ -18,7 +18,7 @@ export default function AllProjects() {
             key={project.title}
             title={project.title}
             description={project.description}
-            img={project.image}
+            image={project.image}
             github={project.github}
             deployed={project.deployed}
           />
