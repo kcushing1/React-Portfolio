@@ -1,6 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import DevIcon from "devicon-react-svg";
 import "./skills.css";
 
 export default function Skills() {
@@ -10,12 +8,7 @@ export default function Skills() {
   ];
   return (
     <div className="row m-4 bg-light">
-      <div className="row justify-content-center devicons">
-        <p>SKILLS</p>
-        {skillsArr.map((skill) => {
-          return <i className={skill} key={skill}></i>;
-        })}
-      </div>
+      <p>SKILLS</p>
     </div>
   );
 }

@@ -1,4 +1,4 @@
-const projData = [
+export const projData = [
   {
     title: "Recip-EZ",
     img: "img",
@@ -9,4 +9,4 @@ const projData = [
   },
 ];
 
-export default projData;
+export default { projData };

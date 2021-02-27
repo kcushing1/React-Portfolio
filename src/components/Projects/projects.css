@@ -5,3 +5,7 @@
 .softgrey {
   background-color: #d3e9f5;
 }
+
+p {
+  flex: 1;
+}

@@ -3,10 +3,14 @@ import "./about.css";
 
 export default function About() {
   return (
-    <div className="row greyblue h-100 m-4" id="about-me">
+    <div className="row greyblue m-4" id="about-me">
       <div className="col-md-5 border-0 card greyblue ml-6 align-self-center p-0">
         <div className="card-body greyblue img-rounded">
-          <img src="./images/KCushingHeadshot.jpg" alt="Kasey Cushing" />
+          <img
+            id="headshot"
+            src="./images/KCushingHeadshot.jpg"
+            alt="Kasey Cushing"
+          />
         </div>
       </div>
       <div className="col-md-6 card greyblue p-0 border-0 text-center align-self-center">
