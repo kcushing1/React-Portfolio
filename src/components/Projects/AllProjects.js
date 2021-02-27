@@ -1,26 +1,28 @@
 import React, { useContext } from "react";
 import Card from "../../utils/Card";
 import Project from "./Project";
-import { projData } from "./projData";
 import ProjectContext from "../../contexts/ProjectContext";
 
 export default function AllProjects() {
-  console.log("projData ", projData);
-  const { title, img, description, github, deployed } = useContext(
-    ProjectContext
-  );
+  //console.log("projData ", projData);
+  const proj = useContext(ProjectContext);
+
+  //console.log("projCtx", ProjectContext);
+  console.log("proj ", proj);
+
   return (
     <Card>
-      <Project
-        title="t"
-        img="i"
-        description="des"
-        github="git"
-        deployed="dep"
-      />
-      <Project />
-      {projData.map((project) => {
-        return <p key={project.title}>{project.title}</p>;
+      {proj.map((project) => {
+        return (
+          <Project
+            key={project.title}
+            title={project.title}
+            description={project.description}
+            img={project.image}
+            github={project.github}
+            deployed={project.deployed}
+          />
+        );
       })}
     </Card>
   );

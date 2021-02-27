@@ -3,15 +3,21 @@ import { useContext } from "react";
 import projData from "./projData";
 import "./projects.css";
 
-export default function Project({ title, img, description, github, deployed }) {
+export default function Project({
+  title,
+  image,
+  description,
+  github,
+  deployed,
+}) {
   //get from Context?
   //loop over array
   return (
-    <div className="row m-4">
+    <div className="row m-4 softgrey text-dark">
       <div className="col">
         <div className="row">
           <div className="col justify-content-center">
-            <img alt="demo" />
+            <img alt="demo" src={image} />
           </div>
         </div>
       </div>
@@ -27,10 +33,16 @@ export default function Project({ title, img, description, github, deployed }) {
           </div>
         </div>
         <div className="row m-4">
-          <div className="col">
-            <p>{github}</p>
+          <div className="col text-center">
+            <a href={github} target="_blank">
+              Github
+            </a>
           </div>
-          <p>{deployed}</p>
+          <div className="col text-center">
+            <a href={deployed} target="_blank">
+              Deployed
+            </a>
+          </div>
         </div>
       </div>
     </div>
