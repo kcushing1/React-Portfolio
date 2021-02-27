@@ -9,3 +9,5 @@ export default function Footer() {
 }
 //class was fixed-bottom to stay at bottom
 //note: class assignment requires sticky footer
+
+//links to Github and LinkedIn?

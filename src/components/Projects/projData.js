@@ -1,10 +1,11 @@
 const projData = [
   {
-    title: "title",
+    title: "Recip-EZ",
     img: "img",
-    description: "description",
-    github: "github",
-    deployed: "deployed",
+    description:
+      "a place to organize all your favroite recipes from blogs or books",
+    github: "https://github.com/kcushing1/Recipe-Organizer",
+    deployed: "https://recipez417.herokuapp.com/home",
   },
 ];
 
