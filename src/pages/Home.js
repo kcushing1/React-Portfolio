@@ -9,7 +9,6 @@ import Contact from "../components/Contact";
 import AllProjects from "../components/Projects/AllProjects";
 import { projData } from "../components/Projects/projData";
 import ProjectContext from "../contexts/ProjectContext";
-import Button from "../utils/Button";
 
 export default function Home() {
   return (
@@ -21,11 +20,6 @@ export default function Home() {
       </ProjectContext.Provider>
       <Skills />
       <Contact />
-      <Button
-        label="Facts"
-        onClick={() => console.log("onclick button facts")}
-        text="see facts"
-      />
     </Container>
   );
 }

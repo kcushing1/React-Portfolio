@@ -2,3 +2,10 @@
   background-color: #96c9e3;
   margin: 0;
 }
+
+.skill {
+  height: 5em;
+  width: auto;
+  font-size: larger;
+  cursor: pointer;
+}

@@ -14,7 +14,6 @@ import Container from "../components/Container";
 export default function Facts() {
   return (
     <Container>
-      <Navbar />
       <div className="row">
         <div className="col">
           <Github />
@@ -24,7 +23,6 @@ export default function Facts() {
         </div>
       </div>
       <Facts />
-      <Footer />
     </Container>
   );
 }

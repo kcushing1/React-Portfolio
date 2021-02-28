@@ -7,8 +7,9 @@ export default function Main() {
   return (
     <Switch>
       <Route path="/" component={Home} />
-
       <Route path="/facts" component={Facts} />
     </Switch>
   );
 }
+
+//https://stackoverflow.com/questions/41956465/how-to-create-multiple-page-app-using-react
