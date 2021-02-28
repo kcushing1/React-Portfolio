@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer
       id="sticky-footer"
-      className="bg-dark text-light fixed-bottom"
+      className="bg-dark text-light fixed-bottom py-2"
     ></footer>
   );
 }

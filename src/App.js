@@ -1,5 +1,5 @@
 import React from "react";
-import { Router, Route, Switch } from "react-router-dom";
+import { Route, Switch, BrowserRouter } from "react-router-dom";
 import "./App.css";
 import NavBar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer";
@@ -8,18 +8,20 @@ import Facts from "./pages/Facts";
 
 function App() {
   return (
-    <div className="App">
-      <NavBar />
-      <Switch>
-        <Route exact path="/">
-          <Home />
-        </Route>
-        <Route exact path="/facts">
-          <Facts />
-        </Route>
-      </Switch>
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <div>
+        <NavBar />
+        <Switch>
+          <Route exact path="/facts">
+            <Facts />
+          </Route>
+          <Route>
+            <Home path="/" />
+          </Route>
+        </Switch>
+        <Footer />
+      </div>
+    </BrowserRouter>
   );
 }
 

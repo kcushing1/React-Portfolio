@@ -1,16 +1,11 @@
 import React from "react";
 import LinkedIn from "./Links/LinkedIn";
 import Github from "./Links/Github";
-import { Redirect, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Facts from "../pages/Facts";
 import Resume from "./Links/Resume";
 
 export default function Contact() {
-  function handleSeeFunFacts() {
-    console.log("btn click new form");
-    return <Redirect to="/facts" component={Facts} />;
-  }
-
   return (
     <div className="row mb-10" id="contact-me">
       <div className="col ">
@@ -43,7 +38,13 @@ export default function Contact() {
                 <p className="col text-light">Stratham, NH</p>
               </div>
               <div className="row text-center mb-6">
-                <Link className="col" to="/facts">
+                <Link
+                  className="col"
+                  from="/"
+                  to="/facts"
+                  target="_blank"
+                  replace
+                >
                   See More Facts About Me
                 </Link>
               </div>

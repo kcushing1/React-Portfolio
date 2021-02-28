@@ -5,11 +5,10 @@
 //wrap in Container here
 
 import React from "react";
-import Navbar from "../components/Navbar/Navbar";
-import Footer from "../components/Footer";
 import Github from "../components/Links/Github";
 import LinkedIn from "../components/Links/LinkedIn";
 import Container from "../components/Container";
+import ExtraFacts from "../components/Facts/ExtraFacts";
 
 export default function Facts() {
   return (
@@ -22,7 +21,7 @@ export default function Facts() {
           <LinkedIn />
         </div>
       </div>
-      <Facts />
+      <ExtraFacts />
     </Container>
   );
 }
