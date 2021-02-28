@@ -1,5 +1,9 @@
 import React from "react";
 
-export default function Resume() {
-  return <p>Resume</p>;
+export default function Resume({ className }) {
+  return (
+    <a className={className} href="./ResumeKCushing.pdf" target="_blank">
+      Resume
+    </a>
+  );
 }

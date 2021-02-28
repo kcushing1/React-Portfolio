@@ -1,9 +1,9 @@
 import React from "react";
 import LinkedIn from "./Links/LinkedIn";
 import Github from "./Links/Github";
-import Button from "../utils/Button";
 import { Redirect, Link } from "react-router-dom";
 import Facts from "../pages/Facts";
+import Resume from "./Links/Resume";
 
 export default function Contact() {
   function handleSeeFunFacts() {
@@ -27,9 +27,7 @@ export default function Contact() {
             <div className="col ">
               <div className="row">
                 <p className="col text-center">
-                  <a className="text-light" href="#" target="_blank">
-                    Resume
-                  </a>
+                  <Resume className="text-light" />
                 </p>
               </div>
               <div className="row text-center">

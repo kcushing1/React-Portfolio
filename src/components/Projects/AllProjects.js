@@ -4,11 +4,7 @@ import Project from "./Project";
 import ProjectContext from "../../contexts/ProjectContext";
 
 export default function AllProjects() {
-  //console.log("projData ", projData);
   const proj = useContext(ProjectContext);
-
-  //console.log("projCtx", ProjectContext);
-  console.log("proj ", proj);
 
   return (
     <Card>

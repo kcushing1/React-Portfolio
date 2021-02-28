@@ -1,5 +1,6 @@
 import React from "react";
 import "./about.css";
+import Resume from "../Links/Resume";
 
 export default function About() {
   return (
@@ -36,7 +37,9 @@ export default function About() {
             encouraging my personal and professional
             <span className="seehere"> growth</span>.
           </p>
-          <p className="seehere">Resume</p>
+          <p>
+            <Resume className="seehere" />
+          </p>
         </div>
       </div>
     </div>
