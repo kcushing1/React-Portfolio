@@ -7,7 +7,7 @@ Meet me. Explore my projects. See my skills. Read my resume. Contact me.
 
 Come see what I have to offer, [here](https://portfolio-kcushing1.herokuapp.com/)!
 
-![Kasey Cushing React Portfolio](./images/demos/react-portfolio.GIF)
+![Kasey Cushing React Portfolio](./public/images/demos/react-portfolio.GIF)
 
 ## Tools Used
 
