@@ -9,7 +9,7 @@ import Facts from "./pages/Facts";
 function App() {
   return (
     <BrowserRouter>
-      <div>
+      <div className="App">
         <NavBar />
         <Switch>
           <Route exact path="/facts">

@@ -5,10 +5,13 @@
 .greyblue {
   background-color: #96c9e3;
   margin: auto;
-  width: 50%;
 }
 
 #main-img {
   max-width: 30%;
   max-height: auto;
+}
+
+.shorten {
+  max-width: 60%;
 }
