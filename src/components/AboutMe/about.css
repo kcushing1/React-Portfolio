@@ -9,6 +9,10 @@
 }
 
 #headshot {
-  max-height: 60%;
+  max-height: 100%;
   max-width: auto;
+}
+
+#about-me {
+  max-width: 100%;
 }

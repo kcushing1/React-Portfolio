@@ -1,13 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Card from "../../utils/Card";
-
-//links to githib and linked in
-//two images that change on hover
-//fun facts section
-//include used to want to be a forensic pathologist
-//incl 2 years of americorps
-//incl hiked all nh 4000-footers
-//incl button for Main page
+import Blurb from "./Blurb";
+import "./blurb.css";
 
 export default function Facts() {
   //function for btn onclick, go to new page
@@ -15,25 +10,31 @@ export default function Facts() {
     <Card>
       <div className="row text-center">
         <div className="col">
-          <p>image goes here, changes on hover</p>
-          <p>facts go here</p>
-          <p>
-            I used to want to become a Forensic Pathologist and conduct
-            autopsies
-          </p>
-          <p>
-            I have completed two years in AmeriCorps National Service. My first
-            year was in a middle school math class with City Year Boston. My
-            second was as the Family Empowerment Coordinator with Sussex County
-            Habitat for Humanity in Delaware.
-          </p>
-          <p>I have hiked all 48 NH 4000-footers.</p>
+          <img
+            id="main-img"
+            class="rounded-circle"
+            src="./images/imgB.jpg"
+            alt="Kasey"
+          />
+          <Blurb
+            text={
+              "I used to want to become a Forensic Pathologist and conduct autopsies."
+            }
+          />
+          <Blurb
+            text={
+              " I have completed two years in AmeriCorps National Service. My first year was in a middle school math class with City Year Boston. My second was as the Family Empowerment Coordinator with Sussex County Habitat for Humanity in Delaware."
+            }
+          />
+          <Blurb text={"I have hiked all 48 NH 4000-footers."} />
         </div>
       </div>
-      <div className="row text-center">
+      <div className="row text-center mb-4">
         <div className="col">
           <button className="btn" type="button">
-            Return to Main Page
+            <Link to="/" className="text-light">
+              Return to Main Page
+            </Link>
           </button>
         </div>
       </div>

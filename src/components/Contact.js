@@ -39,7 +39,7 @@ export default function Contact() {
               </div>
               <div className="row text-center mb-6">
                 <Link
-                  className="col"
+                  className="col text-light"
                   from="/"
                   to="/facts"
                   target="_blank"

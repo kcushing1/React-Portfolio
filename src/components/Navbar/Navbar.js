@@ -25,10 +25,10 @@ export default function Navbar() {
         id="navbarNav"
       >
         <ul className="navbar-nav">
-          <NavItem href="#about-me" text="About Me" />
-          <NavItem href="#portfolio" text="Portfolio" />
-          <NavItem href="#skills" text="Technical Skills" />
-          <NavItem href="#contact-me" text="Contact Me" />
+          <NavItem href="/#about-me" text="About Me" />
+          <NavItem href="/#portfolio" text="Portfolio" />
+          <NavItem href="/#skills" text="Technical Skills" />
+          <NavItem href="/#contact-me" text="Contact Me" />
         </ul>
       </div>
     </nav>

@@ -1,6 +1,7 @@
 import React from "react";
 import "./about.css";
 import Resume from "../Links/Resume";
+import Card from "../../utils/Card";
 
 export default function About() {
   return (
@@ -14,7 +15,7 @@ export default function About() {
           />
         </div>
       </div>
-      <div className="col-md-6 card greyblue p-0 border-0 text-center align-self-center">
+      <div className="col-md-6 card greyblue p-0 m-0 border-0 text-center align-self-center">
         <div className="card-body greyblue p-0">
           <h3>Hello There!</h3>
           <p>
