@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer id="sticky-footer" className="py-4 bg-dark text-light">
+    <footer id="sticky-footer" className="bg-dark text-light fixed-bottom">
       Footer
     </footer>
   );

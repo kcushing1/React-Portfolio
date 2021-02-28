@@ -1,5 +1,6 @@
 import React from "react";
 import "./skills.css";
+import Card from "../../utils/Card";
 
 export default function Skills() {
   const skillsArr = [
@@ -7,8 +8,10 @@ export default function Skills() {
     "devicon-css3-plain-wordmark",
   ];
   return (
-    <div className="row m-4 bg-light">
-      <p>SKILLS</p>
-    </div>
+    <Card>
+      <div className="row m-4 greyblue">
+        <p>SKILLS</p>
+      </div>
+    </Card>
   );
 }

@@ -12,18 +12,20 @@ export default function AllProjects() {
 
   return (
     <Card>
-      {proj.map((project) => {
-        return (
-          <Project
-            key={project.title}
-            title={project.title}
-            description={project.description}
-            image={project.image}
-            github={project.github}
-            deployed={project.deployed}
-          />
-        );
-      })}
+      <div id="portfolio">
+        {proj.map((project) => {
+          return (
+            <Project
+              key={project.title}
+              title={project.title}
+              description={project.description}
+              image={project.image}
+              github={project.github}
+              deployed={project.deployed}
+            />
+          );
+        })}
+      </div>
     </Card>
   );
 }

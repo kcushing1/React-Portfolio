@@ -1,10 +1,11 @@
 import React from "react";
 import LinkedIn from "./Links/LinkedIn";
 import Github from "./Links/Github";
+import Button from "../utils/Button";
 
 export default function Contact() {
   return (
-    <div className="row pb-6">
+    <div className="row mb-10" id="contact-me">
       <div className="col ">
         <div className="row justify-content-center">
           <h5 className="col text-center">
@@ -14,7 +15,7 @@ export default function Contact() {
             <Github />
           </h5>
         </div>
-        <div className="row justify-content-center">
+        <div className="row justify-content-center mb-6">
           <div className="row ">
             <div className="col ">
               <div className="row">
@@ -33,8 +34,18 @@ export default function Contact() {
               <div className="row text-center">
                 <p className="col text-light">she/her/hers</p>
               </div>
-              <div className="row text-center">
+              <div className="row text-center mb-6">
                 <p className="col text-light">Stratham, NH</p>
+              </div>
+              <div className="row text-center mb-6">
+                <Button
+                  label="Facts"
+                  onClick={() => console.log("onclick button facts")}
+                  text="see facts"
+                />
+              </div>
+              <div className="row">
+                <p className="text-dark">overlap</p>
               </div>
             </div>
           </div>
