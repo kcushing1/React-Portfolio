@@ -13,7 +13,7 @@ export default function Facts() {
           <img
             id="main-img"
             className="rounded-circle"
-            src="./images/imgB.jpg"
+            src="./images/imgB.JPG"
             alt="Kasey"
           />
           <Blurb
