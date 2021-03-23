@@ -1,11 +1,27 @@
 export const projData = [
   {
+    title: "Author Website",
+    image: "./images/demos/author-website-home.jpg",
+    description:
+      "a React app for authors to build fanbase, personal brand, and connect to publishers or agents",
+    github: "https://github.com/kcushing1/Halletts-Author-Website",
+    deployed: "https://proj3-author-website.herokuapp.com/",
+  },
+  {
     title: "Recip-EZ",
     image: "./images/demos/recipEZ.jpg",
     description:
       "a place to organize all your favroite recipes from blogs or books",
     github: "https://github.com/kcushing1/Recipe-Organizer",
     deployed: "https://recipez417.herokuapp.com/home",
+  },
+  {
+    title: "Google Books Search",
+    image: "./images/demos/react-google-search-demo.gif",
+    description:
+      "a React app that uses Google Books API to search books, mark as favorite and view those favorites",
+    github: "https://github.com/kcushing1/Google-Books-Search",
+    deployed: "https://hw21-google-books-search-2021.herokuapp.com/",
   },
   {
     title: "Employee Directory",
@@ -24,27 +40,12 @@ export const projData = [
     deployed: "https://github.com/kcushing1/Employee-Tracker",
   },
   {
-    title: "Time Capsule",
-    image: "./images/demos/time-capsule.gif",
-    description:
-      "search by date to see weather and currency in 5 world cities, and 3 NYT articles",
-    github: "https://github.com/kcushing1/Time-Capsule",
-    deployed: "https://kcushing1.github.io/Time-Capsule/",
-  },
-  {
     title: "Budget Tracker",
     image: "./images/demos/budget-tracker.png",
     description:
       "a progressive web app (PWA) that allows user to track personal financial transactions on- or offline",
     github: "https://github.com/kcushing1/Budget-Tracker",
     deployed: "https://budget-tracker-kcushing1.herokuapp.com/",
-  },
-  {
-    title: "Note-Taker",
-    image: "./images/demos/note-taker.gif",
-    description: "a simple app to record, edit and delete unique notes",
-    github: "https://github.com/kcushing1/Note-Taker",
-    deployed: "https://note-taker-kcushing.herokuapp.com/",
   },
 ];
 

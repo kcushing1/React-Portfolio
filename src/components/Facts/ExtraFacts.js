@@ -12,7 +12,7 @@ export default function Facts() {
         <div className="col">
           <img
             id="main-img"
-            class="rounded-circle"
+            className="rounded-circle"
             src="./images/imgB.jpg"
             alt="Kasey"
           />
